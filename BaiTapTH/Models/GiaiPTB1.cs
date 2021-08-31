@@ -10,7 +10,7 @@ namespace BaiTapTH.Models
         public double GiaiPT(double HesoA, double HesoB)
         {
             double x;
-               x = -HesoA / HesoA;
+               x = -HesoA / HesoB;
                 return x;
             
         }
