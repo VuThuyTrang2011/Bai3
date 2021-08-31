@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("GiaiPTB1","Demo"))
+{
+    <label>Số thứ nhất</label>
+    <input type="text" name="HesoA" />
+     
+    <br />
+    <label>Số thứ hai:</label>
+    <input type="text" name="HesoB" />
+    <br /> 
+    <input type="submit" value="Giai Phuong Trinh" />
+}
